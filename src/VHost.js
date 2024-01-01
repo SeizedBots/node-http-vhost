@@ -76,7 +76,7 @@ function VHost(config = {}){
 
         if(typeof domain === 'string'){
             hosts.push({
-                domain: new RegExp(domain.replace('.', '\\.')),
+                domain: new RegExp(`^${domain.replace('.', '\\.')}$`),
                 server: server
             });
 

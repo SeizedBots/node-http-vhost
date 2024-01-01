@@ -16,7 +16,7 @@ vhost.register(new RegExp('^regextest2\\.localhost$'), require('http').createSer
     res.send('This is test app 2.');
 })));
 
-vhost.register('noregex.localhost', require('http').createServer().on('request', express().get('/', (req, res) => {
+vhost.register('localhost', require('http').createServer().on('request', express().get('/', (req, res) => {
     res.send('This is test app 3.');
 })));
 
