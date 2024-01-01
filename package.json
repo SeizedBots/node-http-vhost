@@ -1,0 +1,24 @@
+{
+  "name": "http-vhost",
+  "version": "1.0.0",
+  "description": "Serves as a virtual host for servers made with the http module.",
+  "main": "./src/index",
+  "scripts": {
+    "test": "node ./tests/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SeizedBots/node-http-vhost.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^1.6.3",
+    "express": "^4.18.2",
+    "ws": "^8.16.0"
+  },
+  "bugs": {
+    "url": "https://github.com/SeizedBots/node-http-vhost/issues"
+  },
+  "homepage": "https://github.com/SeizedBots/node-http-vhost"
+}
