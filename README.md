@@ -44,9 +44,19 @@ new VHost({
 });
 ```
 
+# Properties
+
+## `server`
+
+The `server` property is the `http` server that wraps the user-provided servers.
+
+```js
+vhost.server;
+```
+
 # Methods
 
-## Register
+## `register`
 
 This method takes in a domain and a server as created by the `http` module standard to node. There are several function signatures for this method.
 

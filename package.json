@@ -1,6 +1,6 @@
 {
   "name": "http-vhost",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Serves as a virtual host for servers made with the http module.",
   "main": "./src/index",
   "scripts": {
